@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 VAULT="$1"
-TARGET="$VAULT/.obsidian/plugins/open-link/"
+TARGET="$VAULT/.obsidian/plugins/open-with-optimage"
 mkdir -p $TARGET
-rm "$TARGET/main.js" "$TARGET/styles.css" "$TARGET/manifest.json"
+rm -f "$TARGET/main.js" "$TARGET/styles.css" "$TARGET/manifest.json"
 if [[ $2 == "-d" ]]; then
   # Create symbolic links
   ln -s $(pwd)/main.js "$TARGET"
