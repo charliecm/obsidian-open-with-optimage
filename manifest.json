@@ -1,9 +1,9 @@
 {
 	"id": "obsidian-open-with-optimage",
 	"name": "Open with Optimage",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"minAppVersion": "0.9.12",
-	"description": "Adds a file context menu item to open it with Optimage.",
+	"description": "Open files quickly with Optimage for compression.",
 	"author": "Charlie Chao",
 	"authorUrl": "https://github.com/charliecm",
 	"isDesktopOnly": true
