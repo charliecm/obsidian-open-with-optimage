@@ -1,7 +1,7 @@
 import { Plugin, Menu, TAbstractFile, FileSystemAdapter, TFile } from 'obsidian';
 import open from 'open';
 
-export default class MyPlugin extends Plugin {
+export default class OpenWithOptimage extends Plugin {
 	async onload() {
 		this.app.workspace.on('file-menu', this.addMenuItem);
 	}
