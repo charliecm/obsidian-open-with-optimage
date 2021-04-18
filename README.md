@@ -2,6 +2,8 @@
 
 An [Obsidian](https://obsidian.md) plugin that adds a right-click menu item for any supported files inside your vault so you can easily open them with [Optimage](https://optimage.app) for compression.
 
+<img src="../main/screenshot.png?raw=true" alt="Screenshot" width="460" height="300" />
+
 ## How to Install
 
 From inside Obsidian…
