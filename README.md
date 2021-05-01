@@ -21,6 +21,13 @@ For manual installation, download this repo and copy over `main.js` and `manifes
 3. `npm run dev` to start compilation in watch mode.
 4. `bash install-built.sh /path/to/your/vault -d` to create symbolic links of built files to your vault for quick development.
 
+## Release
+
+1. Run `yarn build`.
+2. Bump version in `manifest.json` and `versions.json`.
+3. Add changes in `CHANGELOG.md`.
+4. Add a new release in Github with the changelog texts and the built `main.js` and `manifest.json` attached.
+
 ## Support
 
 If you really like this plugin and want to support its development, please consider [buying me a coffee](https://www.buymeacoffee.com/charliecm) 🙂 Thanks!
