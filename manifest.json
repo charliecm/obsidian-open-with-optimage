@@ -2,7 +2,7 @@
 	"id": "obsidian-open-with-optimage",
 	"name": "Open with Optimage",
 	"version": "0.1.0",
-	"minAppVersion": "0.9.12",
+	"minAppVersion": "0.11.13",
 	"description": "Open files quickly with Optimage for compression.",
 	"author": "Charlie Chao",
 	"authorUrl": "https://github.com/charliecm",
