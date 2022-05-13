@@ -1,24 +1,26 @@
-# Obsidian Open with Optimage
+# Obsidian Optimage Kit
 
-An [Obsidian](https://obsidian.md) plugin that adds a right-click menu item for any supported files inside your vault so you can easily open them with [Optimage](https://optimage.app) for compression.
+An [Obsidian](https://obsidian.md) plugin that adds shortcuts to optimize images using [Optimage](https://optimage.app) (required to run):
+- “Open with Optimage” right-click menu item for files
+- “Optimize and rename image(s) under cursor” command
 
-<img src="../main/screenshot.png?raw=true" alt="Screenshot" width="460" height="300" />
+This plugin doesn't support mobile.
 
 ## How to Install
 
 From inside Obsidian…
 1. Go to Settings → **Community plugins**.
 2. Disable **Safe mode**.
-3. Click **Browse**, search for **Open with Optimage**, and click **Install**.
+3. Click **Browse**, search for **Optimage Kit**, and click **Install**.
 4. Click the toggle button to enable the plugin.
 
-For manual installation, download this repo and copy over `main.js` and `manifest.json` to your vault: `VaultFolder/.obsidian/plugins/open-with-optimage/`.
+For manual installation, download this repo and copy over `main.js` and `manifest.json` to your vault: `VaultFolder/.obsidian/plugins/optimage-kit/`.
 
 ## Development
 
 1. Clone this repo.
-2. `npm i` or `yarn` to install dependencies.
-3. `npm run dev` to start compilation in watch mode.
+2. `yarn` to install dependencies.
+3. `yarn dev` to start compilation in watch mode.
 4. `bash install-built.sh /path/to/your/vault -d` to create symbolic links of built files to your vault for quick development.
 
 ## Release

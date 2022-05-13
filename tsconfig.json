@@ -6,11 +6,12 @@
     "module": "ESNext",
     "esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
-    "target": "es6",
+    "target": "es5",
     "allowJs": true,
     "noImplicitAny": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "downlevelIteration": true,
     "lib": [
       "dom",
       "es5",

@@ -1,9 +1,9 @@
 {
-	"id": "obsidian-open-with-optimage",
-	"name": "Open with Optimage",
-	"version": "0.1.0",
+	"id": "obsidian-optimage-kit",
+	"name": "Optimage Kit",
+	"version": "0.2.0",
 	"minAppVersion": "0.11.13",
-	"description": "Open files quickly with Optimage for compression.",
+	"description": "Add shortcuts to optimize images with Optimage.",
 	"author": "Charlie Chao",
 	"authorUrl": "https://github.com/charliecm",
 	"isDesktopOnly": true

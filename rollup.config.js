@@ -17,6 +17,6 @@ export default {
   plugins: [
     typescript(),
     nodeResolve({browser: true}),
-    commonjs(),
+    commonjs()
   ]
 };
