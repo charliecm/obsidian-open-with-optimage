@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 VAULT="$1"
 TARGET="$VAULT/.obsidian/plugins/optimage-kit"
-mkdir -p $TARGET
+mkdir -p "$TARGET"
 rm -f "$TARGET/main.js" "$TARGET/manifest.json"
 if [[ $2 == "-d" ]]; then
   # Create symbolic links
